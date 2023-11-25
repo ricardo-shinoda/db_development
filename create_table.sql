@@ -1,6 +1,4 @@
-CREATE DATABASE loja;
-
-USE loja;
+USE Loja;
 
 CREATE TABLE Clientes (
     ClienteID INT PRIMARY KEY,
@@ -13,7 +11,3 @@ CREATE TABLE Produtos (
     NomeProduto VARCHAR(255),
     Preco DECIMAL(10, 2)
 );
-
-SHOW TABLE;
-
-
